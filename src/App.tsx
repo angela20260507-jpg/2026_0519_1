@@ -121,6 +121,8 @@ export default function App() {
 
           <div className="flex-1 p-5 relative overflow-hidden">
             <textarea
+              id="transcript-input"
+              name="transcript"
               className="w-full h-full bg-transparent border-none focus:ring-0 resize-none text-[15px] leading-relaxed text-slate-700 placeholder:text-slate-400 transition-all outline-hidden"
               placeholder="請在此貼上您的會議逐字稿、錄音轉文字內容或筆記..."
               value={transcript}
